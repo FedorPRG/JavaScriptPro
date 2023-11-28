@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: calc(50% - 650px);
+  padding-right: calc(50% - 650px);
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prodact {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid #333;
+}
+.prodact h1 {
+  text-align: center;
+}
+.prodact p {
+  margin-top: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.currentRecall {
+  margin-top: 10px;
+  height: 25px;
+  padding: 5px;
+}
+
+.add-button {
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
